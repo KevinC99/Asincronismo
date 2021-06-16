@@ -1,0 +1,21 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Trabajando con asincronismo",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node Callbacks/Index.js",
+    "callback:challenge":"node Callbacks/challenge.js",
+    "promise:challenge":"node Promise/Challenge.js"
+  },
+  "keywords": [
+    "Callbacks",
+    "Promise",
+    "Async"
+  ],
+  "author": "Kevin C",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
